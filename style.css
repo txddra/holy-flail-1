@@ -3,7 +3,8 @@
 }
 
 #app {
-  /* display: flex; */
+  display: flex;
+  flex-direction: column;
   font-size: 5em;
   text-align: center;
   height: 100vh;
@@ -11,6 +12,7 @@
 
 #header {
   /* display:flex; */
+  /* flex-direction: row; */
   background-color: #f3ca40;
   height: 20vh;
   width: 100vw;
@@ -20,26 +22,37 @@
   height: 60vh;
   width: 100vw;
   display: flex;
+  flex-direction: row;
+  flex-flow: swrap;
 }
 
 #main {
   width: 80%;
   display: flex;
+  flex-direction: row;
+ /* justify-content:center ; */
 }
 
 #nav {
+  
   width: 20%;
   background-color: #4b4e6d;
+  display: flex;
+  flex-direction: column;
 }
 
 #articles {
   width: 60vw;
   background-color: #6a8d92;
+  display: flex;
+  flex-direction: column;
 }
 
 #ads {
   width: 20vw;
   background-color: #f2a541;
+  display: flex;
+  flex-direction: column;
 }
 
 #footer {
